@@ -1,6 +1,10 @@
-# vscode-theme-monokai-faded
+# Monokai Faded
 
-A faded Monokai syntax theme for Visual Studio Code.
+Monokai Faded is a complete interface theme for Visual Studio Code based losely on the original Monokai theme.
+
+## Screenshot
+
+![Monokai Faded Theme Demo](/screenshots/screenshot.png?raw=true "Monokai Faded Theme Demo")
 
 ## License
 
