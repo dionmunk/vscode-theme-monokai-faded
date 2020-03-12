@@ -4,9 +4,22 @@
     "description": "A faded Monokai theme for Visual Studio Code.",
     "version": "1.0.0",
     "publisher": "dionmunk",
-    "license": "CC BY 4.0",
-    "repositoryURL": "https://github.com/dionmunk/vscode-theme-monokai-faded",
-    "repository": "https://github.com/dionmunk/vscode-theme-monokai-faded",
+    "license": "CC-BY-NC-4.0",
+    "author": {
+        "name": "Dion Munk",
+        "url": "https://github.com/dionmunk"
+    },
+    "keywords": [
+        "monokai"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dionmunk/vscode-theme-monokai-faded"
+    },
+    "homepage": "https://github.com/dionmunk/vscode-theme-monokai-faded#readme",
+    "bugs": {
+        "url": "https://github.com/dionmunk/vscode-theme-monokai-faded/issues"
+    },
     "icon": "icon.png",
     "engines": {
         "vscode": "*"
