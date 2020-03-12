@@ -24,6 +24,9 @@
     "engines": {
         "vscode": "*"
     },
+    "categories": [
+        "Themes"
+    ],
     "contributes": {
         "themes": [
             {
