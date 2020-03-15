@@ -2,7 +2,7 @@
 	"type": "dark",
 	"colors": {
 		// base colors
-		"focusBorder": "#484848", // Overall border color for focused elements. This color is only used if not overridden by a component.
+		"focusBorder": "#568af2", // #484848 Overall border color for focused elements. This color is only used if not overridden by a component.
 		"foreground": "#f8f8f8", // Overall foreground color. This color is only used if not overridden by a component.
 		"widget.shadow": "#000000", // Shadow color of widgets such as Find/Replace inside the editor.
 		"selection.background": "#568af280", // Background color of text selections in the workbench (for input fields or text areas, does not apply to selections within the editor and the terminal).
@@ -10,8 +10,8 @@
 		"errorForeground": "#d13b2e", // Overall foreground color for error messages (this color is only used if not overridden by a component).
 		"icon.foreground": "#f8f8f8", // The default color for icons in the workbench.
 		// window border
-		"window.activeBorder": "#282828", // Border color for the active (focused) window.
-		"window.inactiveBorder": "#282828", // Border color for the inactive (unfocused) windows.
+		// "window.activeBorder": "#181818", // Border color for the active (focused) window.
+		// "window.inactiveBorder": "#181818", // Border color for the inactive (unfocused) windows.
 		// text colors
 		"textBlockQuote.background": "#323232", // Background color for block quotes in text.
 		"textBlockQuote.border": "#484848", // Border color for block quotes in text.
@@ -29,11 +29,11 @@
 		"checkbox.border": "#3f3f3f", // Border color of checkbox widget.
 		// dropdown control
 		"dropdown.background": "#3b3b3b", // Dropdown background.
-		"dropdown.listBackground": "#3b3b3b", // Dropdown list background.
+		"dropdown.listBackground": "#202020", // Dropdown list background.
 		"dropdown.border": "#484848", // Dropdown border.
 		"dropdown.foreground": "#f8f8f8", // Dropdown foreground.
 		// input control
-		//"input.background": "#191919", // Input box background.
+		"input.background": "#3c3c3c", // Input box background.
 		"input.border": "#484848", // Input box border.
 		//"input.foreground": "#f8f8f8", // Input box foreground.
 		//"input.placeholderForeground": "#6f6f6f", // Input box foreground color for placeholder text.
@@ -129,7 +129,7 @@
 		"tab.unfocusedActiveBorderTop": "#568af2", // Top border for the active tab in an inactive editor group
 		"tab.inactiveBackground": "#202020", // Inactive Tab background color.
 		"tab.inactiveForeground": "#727272", // Inactive Tab foreground color in an active group.
-		"tab.unfocusedActiveForeground": "#202020", // Active tab foreground color in an inactive editor group.
+		"tab.unfocusedActiveForeground": "#727272", // Active tab foreground color in an inactive editor group.
 		"tab.unfocusedInactiveForeground": "#727272", // Inactive tab foreground color in an inactive editor group.
 		"tab.hoverBackground": "#323232", // Tab background color when hovering
 		"tab.unfocusedHoverBackground": "#323232", // Tab background color in an unfocused group when hovering
@@ -139,11 +139,11 @@
 		"tab.inactiveModifiedBorder": "#568af280", // Border on the top of modified (dirty) inactive tabs in an active group.
 		"tab.unfocusedActiveModifiedBorder": "#568af20", // Border on the top of modified (dirty) active tabs in an unfocused group.
 		"tab.unfocusedInactiveModifiedBorder": "#568af280", // Border on the top of modified (dirty) inactive tabs in an unfocused group.
-		"editorPane.background": "#303030", // Background color of the editor pane visible on the left and right side of the centered editor layout.
+		"editorPane.background": "#282828", // Background color of the editor pane visible on the left and right side of the centered editor layout.
 		// editor colors
-		"editor.background": "#282828", // Editor background color.
+		"editor.background": "#202020", // Editor background color.
 		"editor.foreground": "#f8f8f8", // Editor default foreground color.
-		"editorLineNumber.foreground": "#a8a8a8", // Color of editor line numbers.
+		"editorLineNumber.foreground": "#9a9a9a", // Color of editor line numbers.
 		"editorLineNumber.activeForeground": "#ffffff", // Color of the active editor line number.
 		"editorCursor.background": "#282828", // The background color of the editor cursor. Allows customizing the color of a character overlapped by a block cursor.
 		"editorCursor.foreground": "#f8f8f8", // Color of the editor cursor.
@@ -180,9 +180,9 @@
 		//"editor.symbolHighlightBackground": , // Background color of highlighted symbol. The color must not be opaque so as not to hide underlying decorations.
 		//"editor.symbolHighlightBorder": , // Background color of the border around highlighted symbols.
 		// white space character color
-		"editorWhitespace.foreground": "#75715E40", // Color of whitespace characters in the editor.
-		"editorIndentGuide.background": "#75715E40", // Color of the editor indentation guides.
-		"editorIndentGuide.activeBackground": "#75715E40", // Color of the active editor indentation guide.
+		//"editorWhitespace.foreground": "#75715E40", // Color of whitespace characters in the editor.
+		//"editorIndentGuide.background": "#75715E40", // Color of the editor indentation guides.
+		//"editorIndentGuide.activeBackground": "#75715E40", // Color of the active editor indentation guide.
 		// ruler color
 		//"editorRuler.foreground": , // Color of the editor rulers.
 		// codelens color
@@ -239,16 +239,16 @@
 		// merge conflicts
 		//
 		// panel colors
-		"panel.background": "#282828", // Panel background color.
+		"panel.background": "#202020", // Panel background color.
 		"panel.border": "#181818", // Panel border color to separate the panel from the editor.
 		"panel.dropBackground": "#3c3c3c", // Drag and drop feedback color for the panel title items. The color should have transparency so that the panel entries can still shine through.
 		"panelTitle.activeBorder": "#568af2", // Border color for the active panel title.
-		//"panelTitle.activeForeground": , // Title color for the active panel.
-		//"panelTitle.inactiveForeground": , // Title color for the inactive panel.
+		"panelTitle.activeForeground": "#f8f8f8", // Title color for the active panel.
+		"panelTitle.inactiveForeground": "#727272", // Title color for the inactive panel.
 		"panelInput.border": "#181818", // Input box border for inputs in the panel.
 		"imagePreview.border": "#181818", // Border color for image in image preview.
 		// status bar colors
-		"statusBar.background": "#282828", // Standard Status Bar background color.
+		"statusBar.background": "#202020", // Standard Status Bar background color.
 		"statusBar.foreground": "#f8f8f8", // Status Bar foreground color.
 		"statusBar.border": "#181818", // Status Bar border color separating the Status Bar and editor.
 		//"statusBar.debuggingBackground": , // Status Bar background color when a program is being debugged.
@@ -289,7 +289,7 @@
 		// quick picker
 		//
 		// terminal colors
-		"terminal.background": "#282828", // The background of the Integrated Terminal's viewport.
+		"terminal.background": "#202020", // The background of the Integrated Terminal's viewport.
 		"terminal.border": "#181818", // The color of the border that separates split panes within the terminal. This defaults to panel.border.
 		"terminal.foreground": "#f8f8f8", // The default foreground color of the Integrated Terminal.
 		"terminal.ansiBlack": "#000000", // 'Black' ANSI color in the terminal.
@@ -309,7 +309,7 @@
 		"terminal.ansiWhite": "#f8f8f8", // 'White' ANSI color in the terminal.
 		"terminal.ansiYellow": "#dfd679", // 'Yellow' ANSI color in the terminal.
 		"terminal.selectionBackground": "#49483e80", // The selection background color of the terminal.
-		"terminalCursor.background": "#282828", // The background color of the terminal cursor. Allows customizing the color of a character overlapped by a block cursor.
+		"terminalCursor.background": "#202020", // The background color of the terminal cursor. Allows customizing the color of a character overlapped by a block cursor.
 		"terminalCursor.foreground": "#f8f8f8", // The foreground color of the terminal cursor.
 		// debug
 		//"debugToolBar.background": , // Debug toolbar background color.
@@ -358,7 +358,7 @@
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#808080" // 606060 zambezi (grey)
+				"foreground": "#666666" // 606060 zambezi (grey)
 			}
 		},
 		{
