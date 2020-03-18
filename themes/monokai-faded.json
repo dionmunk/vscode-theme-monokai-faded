@@ -2,7 +2,7 @@
 	"type": "dark",
 	"colors": {
 		// base colors
-		"focusBorder": "#568af2", // #484848 Overall border color for focused elements. This color is only used if not overridden by a component.
+		"focusBorder": "#568af2", // Overall border color for focused elements. This color is only used if not overridden by a component.
 		"foreground": "#f8f8f8", // Overall foreground color. This color is only used if not overridden by a component.
 		"widget.shadow": "#000000", // Shadow color of widgets such as Find/Replace inside the editor.
 		"selection.background": "#568af280", // Background color of text selections in the workbench (for input fields or text areas, does not apply to selections within the editor and the terminal).
@@ -10,8 +10,8 @@
 		"errorForeground": "#d13b2e", // Overall foreground color for error messages (this color is only used if not overridden by a component).
 		"icon.foreground": "#f8f8f8", // The default color for icons in the workbench.
 		// window border
-		// "window.activeBorder": "#181818", // Border color for the active (focused) window.
-		// "window.inactiveBorder": "#181818", // Border color for the inactive (unfocused) windows.
+		// "window.activeBorder": , // Border color for the active (focused) window.
+		// "window.inactiveBorder": , // Border color for the inactive (unfocused) windows.
 		// text colors
 		"textBlockQuote.background": "#323232", // Background color for block quotes in text.
 		"textBlockQuote.border": "#484848", // Border color for block quotes in text.
@@ -35,8 +35,8 @@
 		// input control
 		"input.background": "#3c3c3c", // Input box background.
 		"input.border": "#484848", // Input box border.
-		//"input.foreground": "#f8f8f8", // Input box foreground.
-		//"input.placeholderForeground": "#6f6f6f", // Input box foreground color for placeholder text.
+		//"input.foreground": , // Input box foreground.
+		//"input.placeholderForeground": , // Input box foreground color for placeholder text.
 		"inputOption.activeBackground": "#568af2", // Background color of activated options in input fields.
 		"inputOption.activeBorder": "#181818", // Border color of activated options in input fields.
 		"inputValidation.errorBackground": "#d13b2e", // Input validation background color for error severity.
@@ -100,17 +100,17 @@
 		"sideBarSectionHeader.foreground": "#f8f8f8", // Side Bar section header foreground color.
 		"sideBarSectionHeader.border": "#181818", // Side bar section header border color.
 		// minimap
-		//"minimap.findMatchHighlight": , // Highlight color for matches from search within files.
-		//"minimap.selectionHighlight": , // Highlight color for the editor selection.
-		//"minimap.errorHighlight": , // Highlight color for errors within the editor.
-		//"minimap.warningHighlight": , // Highlight color for warnings within the editor.
-		//"minimap.background": "#282828", // Minimap background color.
+		"minimap.findMatchHighlight": "#ffa500", // Highlight color for matches from search within files.
+		"minimap.selectionHighlight": "#4c4c4c", // Highlight color for the editor selection.
+		"minimap.errorHighlight": "#d13b2e", // Highlight color for errors within the editor.
+		"minimap.warningHighlight": "#ea9b40", // Highlight color for warnings within the editor.
+		//"minimap.background": , // Minimap background color.
 		"minimapSlider.background": "#f8f8f833", // Minimap slider background color.
 		"minimapSlider.hoverBackground": "#f8f8f84d", // Minimap slider background color when hovering.
 		"minimapSlider.activeBackground": "#f8f8f866", // Minimap slider background color when clicked on.
-		//"minimapGutter.addedBackground": "#2cbe4e", // Minimap gutter color for added content.
-		//"minimapGutter.modifiedBackground": "#568af2", // Minimap gutter color for modified content.
-		//"minimapGutter.deletedBackground": "#cb2431", // Minimap gutter color for deleted content.
+		"minimapGutter.addedBackground": "#2cbe4e", // Minimap gutter color for added content.
+		"minimapGutter.modifiedBackground": "#568af2", // Minimap gutter color for modified content.
+		"minimapGutter.deletedBackground": "#cb2431", // Minimap gutter color for deleted content.
 		// editor groups & tabs
 		"editorGroup.border": "#181818", // Color to separate multiple editor groups from each other.
 		"editorGroup.dropBackground": "#3c3c3c", // Background color when dragging editors around.
@@ -160,7 +160,7 @@
 		"editor.findMatchBackground": "#ffa50099", // Color of the current search match.
 		"editor.findMatchHighlightBackground": "#ffa50040", // Color of the other search matches. The color must not be opaque so as not to hide underlying decorations.
 		//"editor.findRangeHighlightBackground": , // Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque so as not to hide underlying decorations.
-		//"editor.findMatchBorder": "#ffa50080", // Border color of the current search match.
+		//"editor.findMatchBorder": , // Border color of the current search match.
 		//"editor.findMatchHighlightBorder": , // Border color of the other search matches.
 		//"editor.findRangeHighlightBorder": , // Border color the range limiting the search (Enable 'Find in Selection' in the find widget).
 		// search editor colors
@@ -229,7 +229,7 @@
 		"editorGutter.modifiedBackground": "#568af2", // Editor gutter background color for lines that are modified.
 		"editorGutter.addedBackground": "#2cbe4e", // Editor gutter background color for lines that are added.
 		"editorGutter.deletedBackground": "#cb2431", // Editor gutter background color for lines that are deleted.
-		"editorGutter.commentRangeForeground": "#dfd67b", // Editor gutter decoration color for commenting ranges.
+		"editorGutter.commentRangeForeground": "#727272", // Editor gutter decoration color for commenting ranges.
 		// diff editor colors
 		//
 		// edit widget colors
@@ -275,7 +275,7 @@
 		// notification center colors
 		"notificationCenter.border": "#484848", // Notification Center border color.
 		"notificationCenterHeader.foreground": "#f8f8f8", // Notification Center header foreground color.
-		"notificationCenterHeader.background": "#3c3c3c", // Notification Center header background color.
+		"notificationCenterHeader.background": "#568af2", // Notification Center header background color.
 		//"notificationToast.border": , // Notification toast border color.
 		"notifications.foreground": "#f8f8f8", // Notification foreground color.
 		"notifications.background": "#282828", // Notification background color.
@@ -293,22 +293,22 @@
 		"terminal.border": "#181818", // The color of the border that separates split panes within the terminal. This defaults to panel.border.
 		"terminal.foreground": "#f8f8f8", // The default foreground color of the Integrated Terminal.
 		"terminal.ansiBlack": "#000000", // 'Black' ANSI color in the terminal.
-		"terminal.ansiBlue": "#71c4d9", // 'Blue' ANSI color in the terminal.
+		"terminal.ansiBlue": "#74c5d9", // 'Blue' ANSI color in the terminal.
 		"terminal.ansiBrightBlack": "#000000", // 'BrightBlack' ANSI color in the terminal.
-		"terminal.ansiBrightBlue": "#71c4d9", // 'BrightBlue' ANSI color in the terminal.
-		"terminal.ansiBrightCyan": "#e05078", // 'BrightCyan' ANSI color in the terminal.
-		"terminal.ansiBrightGreen": "#b4d838", // 'BrightGreen' ANSI color in the terminal.
+		"terminal.ansiBrightBlue": "#74c5d9", // 'BrightBlue' ANSI color in the terminal.
+		"terminal.ansiBrightCyan": "#df5077", // 'BrightCyan' ANSI color in the terminal.
+		"terminal.ansiBrightGreen": "#b5d93f", // 'BrightGreen' ANSI color in the terminal.
 		"terminal.ansiBrightMagenta": "#7c71c8", // 'BrightMagenta' ANSI color in the terminal.
-		"terminal.ansiBrightRed": "#dc322e", // 'BrightRed' ANSI color in the terminal.
+		"terminal.ansiBrightRed": "#d13b2e", // 'BrightRed' ANSI color in the terminal.
 		"terminal.ansiBrightWhite": "#f8f8f8", // 'BrightWhite' ANSI color in the terminal.
-		"terminal.ansiBrightYellow": "#dfd679", // 'BrightYellow' ANSI color in the terminal.
-		"terminal.ansiCyan": "#e05078", // 'Cyan' ANSI color in the terminal.
-		"terminal.ansiGreen": "#b4d838", // 'Green' ANSI color in the terminal.
+		"terminal.ansiBrightYellow": "#e0d77b", // 'BrightYellow' ANSI color in the terminal.
+		"terminal.ansiCyan": "#df5077", // 'Cyan' ANSI color in the terminal.
+		"terminal.ansiGreen": "#b5d93f", // 'Green' ANSI color in the terminal.
 		"terminal.ansiMagenta": "#7c71c8", // 'Magenta' ANSI color in the terminal.
-		"terminal.ansiRed": "#dc322e", // 'Red' ANSI color in the terminal.
+		"terminal.ansiRed": "#d13b2e", // 'Red' ANSI color in the terminal.
 		"terminal.ansiWhite": "#f8f8f8", // 'White' ANSI color in the terminal.
-		"terminal.ansiYellow": "#dfd679", // 'Yellow' ANSI color in the terminal.
-		"terminal.selectionBackground": "#49483e80", // The selection background color of the terminal.
+		"terminal.ansiYellow": "#e0d77b", // 'Yellow' ANSI color in the terminal.
+		"terminal.selectionBackground": "#f8f8f833", // The selection background color of the terminal.
 		"terminalCursor.background": "#202020", // The background color of the terminal cursor. Allows customizing the color of a character overlapped by a block cursor.
 		"terminalCursor.foreground": "#f8f8f8", // The foreground color of the terminal cursor.
 		// debug
@@ -319,14 +319,15 @@
 		// welcome page
 		//
 		// git colors
-		//"gitDecoration.addedResourceForeground": "#2cbe4e", // Color for added Git resources. Used for file labels and the SCM viewlet.
-		//"gitDecoration.modifiedResourceForeground": "#568af2", // Color for modified Git resources. Used for file labels and the SCM viewlet.
-		//"gitDecoration.deletedResourceForeground": "#cb2431", // Color for deleted Git resources. Used for file labels and the SCM viewlet.
-		//"gitDecoration.untrackedResourceForeground": "#2cbe4e", // #f2e01c Color for untracked Git resources. Used for file labels and the SCM viewlet.
-		//"gitDecoration.ignoredResourceForeground": "#75715e", // Color for ignored Git resources. Used for file labels and the SCM viewlet.
-		//"gitDecoration.conflictingResourceForeground": , // Color for conflicting Git resources. Used for file labels and the SCM viewlet.
-		//"gitDecoration.submoduleResourceForeground": , // Color for submodule resources.
+		"gitDecoration.addedResourceForeground": "#2cbe4e", // Color for added Git resources. Used for file labels and the SCM viewlet.
+		"gitDecoration.modifiedResourceForeground": "#568af2", // Color for modified Git resources. Used for file labels and the SCM viewlet.
+		"gitDecoration.deletedResourceForeground": "#cb2431", // Color for deleted Git resources. Used for file labels and the SCM viewlet.
+		"gitDecoration.untrackedResourceForeground": "#F5E649", // Color for untracked Git resources. Used for file labels and the SCM viewlet.
+		"gitDecoration.ignoredResourceForeground": "#424242", // Color for ignored Git resources. Used for file labels and the SCM viewlet.
+		"gitDecoration.conflictingResourceForeground": "#7d72c8", // Color for conflicting Git resources. Used for file labels and the SCM viewlet.
+		"gitDecoration.submoduleResourceForeground": "#74c5d9", // Color for submodule resources.
 		// settings editor colors
+		//
 		// breadcrumbs
 		//
 		// snippets
@@ -341,7 +342,7 @@
 	"tokenColors": [{
 			"settings": {
 				"background": "#282828",
-				"foreground": "#f8f8f8" // white smoke
+				"foreground": "#f8f8f8"
 			}
 		},
 		{
@@ -351,21 +352,21 @@
 			],
 			"settings": {
 				"background": "#282828",
-				"foreground": "#f8f8f8" // white smoke
+				"foreground": "#f8f8f8"
 			}
 		},
 		{
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#666666" // 606060 zambezi (grey)
+				"foreground": "#666666"
 			}
 		},
 		{
 			"name": "String",
 			"scope": "string",
 			"settings": {
-				"foreground": "#e0d77b" // wild rice (tan)
+				"foreground": "#e0d77b"
 			}
 		},
 		{
@@ -375,7 +376,7 @@
 				"punctuation.section.embedded"
 			],
 			"settings": {
-				"foreground": "#df5077" // cranberry (pink)
+				"foreground": "#df5077"
 			}
 		},
 		{
@@ -384,21 +385,21 @@
 				"meta.template.expression"
 			],
 			"settings": {
-				"foreground": "#f8f8f8" // white smoke
+				"foreground": "#f8f8f8"
 			}
 		},
 		{
 			"name": "Built-in constant",
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#7d72c8" // moody blue (purple)
+				"foreground": "#7d72c8"
 			}
 		},
 		{
 			"name": "User-defined constant",
 			"scope": "constant.character, constant.other",
 			"settings": {
-				"foreground": "#7d72c8" // moody blue (purple)
+				"foreground": "#7d72c8"
 			}
 		},
 		{
@@ -406,14 +407,14 @@
 			"scope": "numeric-suffix",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#74c5d9" // spray (blue)
+				"foreground": "#74c5d9"
 			}
 		},
 		{
 			"name": "Number",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#7d72c8" // moody blue (purple)
+				"foreground": "#7d72c8"
 			}
 		},
 		{
@@ -421,7 +422,7 @@
 			"scope": "variable",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#f8f8f8" // white smoke
+				"foreground": "#f8f8f8"
 			}
 		},
 		{
@@ -429,7 +430,7 @@
 			"scope": "punctuation.tilde",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#b5d93f" // conifer (green)
+				"foreground": "#b5d93f"
 			}
 		},
 		{
@@ -437,7 +438,7 @@
 			"scope": "punctuation.squarebracket-attribute",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#df5077" // cranberry (pink)
+				"foreground": "#df5077"
 			}
 		},
 		{
@@ -445,7 +446,7 @@
 			"scope": "keyword.type",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#74c5d9" // spray (blue)
+				"foreground": "#74c5d9"
 			}
 		},
 		{
@@ -453,7 +454,7 @@
 			"scope": "keyword",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#df5077" // cranberry (pink)
+				"foreground": "#df5077"
 			}
 		},
 		{
@@ -461,7 +462,7 @@
 			"scope": "keyword.other.class",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#74c5d9" // spray (blue)
+				"foreground": "#74c5d9"
 			}
 		},
 		{
@@ -469,7 +470,7 @@
 			"scope": "storage",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#df5077" // cranberry (pink)
+				"foreground": "#df5077"
 			}
 		},
 		{
@@ -477,7 +478,7 @@
 			"scope": "meta.function-call",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#74c5d9" // spray (blue)
+				"foreground": "#74c5d9"
 			}
 		},
 		{
@@ -485,7 +486,7 @@
 			"scope": "storage.type, entity.name.type.type-parameter",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#74c5d9" // spray (blue)
+				"foreground": "#74c5d9"
 			}
 		},
 		{
@@ -493,14 +494,14 @@
 			"scope": "storage.type.numeric",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#74c5d9" // spray (blue)
+				"foreground": "#74c5d9"
 			}
 		},
 		{
 			"name": "Class name",
 			"scope": "entity.name.type, entity.name.class",
 			"settings": {
-				"foreground": "#b5d93f" // conifer (green)
+				"foreground": "#b5d93f"
 			}
 		},
 		{
@@ -508,7 +509,7 @@
 			"scope": "entity.name.variable.parameter, keyword.other.this, keyword.other.base",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#ea9b40" // fire bush (orange)
+				"foreground": "#ea9b40"
 			}
 		},
 		{
@@ -523,7 +524,7 @@
 			"scope": "entity.other.inherited-class",
 			"settings": {
 				"fontStyle": "italic underline",
-				"foreground": "#b5d93f" // conifer (green)
+				"foreground": "#b5d93f"
 			}
 		},
 		{
@@ -531,7 +532,7 @@
 			"scope": "entity.name.function",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#b5d93f" // conifer (green)
+				"foreground": "#b5d93f"
 			}
 		},
 		{
@@ -539,7 +540,7 @@
 			"scope": "inherit-class",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#b5d93f" // conifer (green)
+				"foreground": "#b5d93f"
 			}
 		},
 		{
@@ -547,7 +548,7 @@
 			"scope": "variable.parameter",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#ea9b40" // fire bush (orange)
+				"foreground": "#ea9b40"
 			}
 		},
 		{
@@ -555,7 +556,7 @@
 			"scope": "entity.name.tag",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#df5077" // cranberry (pink)
+				"foreground": "#df5077"
 			}
 		},
 		{
@@ -563,7 +564,7 @@
 			"scope": "entity.other.attribute-name",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#b5d93f" // conifer (green)
+				"foreground": "#b5d93f"
 			}
 		},
 		{
@@ -571,7 +572,7 @@
 			"scope": "support.function",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#74c5d9" // spray (blue)
+				"foreground": "#74c5d9"
 			}
 		},
 		{
@@ -579,7 +580,7 @@
 			"scope": "support.constant",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#74c5d9" // spray (blue)
+				"foreground": "#74c5d9"
 			}
 		},
 		{
@@ -587,7 +588,7 @@
 			"scope": "support.type, support.class",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#74c5d9" // spray (blue)
+				"foreground": "#74c5d9"
 			}
 		},
 		{
@@ -601,17 +602,17 @@
 			"name": "Invalid",
 			"scope": "invalid",
 			"settings": {
-				"background": "#df5077", // cranberry (pink)
+				"background": "#df5077",
 				"fontStyle": "",
-				"foreground": "#f8f8f8" // white smoke
+				"foreground": "#f8f8f8"
 			}
 		},
 		{
 			"name": "Invalid deprecated",
 			"scope": "invalid.deprecated",
 			"settings": {
-				"background": "#7d72c8", // moody blue (purple)
-				"foreground": "#f8f8f8" // white smoke
+				"background": "#7d72c8",
+				"foreground": "#f8f8f8"
 			}
 		},
 		{
@@ -625,61 +626,61 @@
 			"name": "diff.header",
 			"scope": "meta.diff, meta.diff.header",
 			"settings": {
-				"foreground": "#75715e" // flint (grey)
+				"foreground": "#75715e"
 			}
 		},
 		{
 			"name": "diff.deleted",
 			"scope": "markup.deleted",
 			"settings": {
-				"foreground": "#df5077" // cranberry (pink)
+				"foreground": "#df5077"
 			}
 		},
 		{
 			"name": "diff.inserted",
 			"scope": "markup.inserted",
 			"settings": {
-				"foreground": "#b5d93f" // conifer (green)
+				"foreground": "#b5d93f"
 			}
 		},
 		{
 			"name": "diff.changed",
 			"scope": "markup.changed",
 			"settings": {
-				"foreground": "#e0d77b" // wild rice (tan)
+				"foreground": "#e0d77b"
 			}
 		},
 		{
 			"scope": "constant.numeric.line-number.find-in-files - match",
 			"settings": {
-				"foreground": "#7d72c8A0" // moody blue (purple) 62.5%
+				"foreground": "#7d72c8A0"
 			}
 		},
 		{
 			"scope": "entity.name.filename.find-in-files",
 			"settings": {
-				"foreground": "#e0d77b" // wild rice (tan)
+				"foreground": "#e0d77b"
 			}
 		},
 		{
 			"name": "Markup Quote",
 			"scope": "markup.quote",
 			"settings": {
-				"foreground": "#df5077" // cranberry (pink)
+				"foreground": "#df5077"
 			}
 		},
 		{
 			"name": "Markup Lists",
 			"scope": "markup.list",
 			"settings": {
-				"foreground": "#e0d77b" // wild rice (tan)
+				"foreground": "#e0d77b"
 			}
 		},
 		{
 			"name": "Markup Styling",
 			"scope": "markup.bold, markup.italic",
 			"settings": {
-				"foreground": "#74c5d9" // spray (blue)
+				"foreground": "#74c5d9"
 			}
 		},
 		{
@@ -687,14 +688,14 @@
 			"scope": "markup.inline.raw",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#ea9b40" // fire bush (orange)
+				"foreground": "#ea9b40"
 			}
 		},
 		{
 			"name": "Markup Headings",
 			"scope": "markup.heading",
 			"settings": {
-				"foreground": "#b5d93f" // conifer (green)
+				"foreground": "#b5d93f"
 			}
 		},
 		{
@@ -702,7 +703,7 @@
 			"scope": "markup.heading.setext",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#b5d93f" // conifer (green)
+				"foreground": "#b5d93f"
 			}
 		},
 		{
@@ -733,7 +734,7 @@
 			"name": "this.self",
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#ea9b40" // fire bush (orange)
+				"foreground": "#ea9b40"
 			}
 		}
 	]
