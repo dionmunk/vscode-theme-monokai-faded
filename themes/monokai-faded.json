@@ -16,14 +16,14 @@
 		"textBlockQuote.background": "#323232", // Background color for block quotes in text.
 		"textBlockQuote.border": "#484848", // Border color for block quotes in text.
 		"textCodeBlock.background": "#323232", // Background color for code blocks in text.
-		"textLink.activeForeground": "#5d84d1", // Foreground color for links in text when clicked on and on mouse hover.
+		"textLink.activeForeground": "#37589B", // Foreground color for links in text when clicked on and on mouse hover.
 		"textLink.foreground": "#568af2", // Foreground color for links in text.
 		"textPreformat.foreground": "#568af2", // Foreground color for preformatted text segments.
 		"textSeparator.foreground": "#568af2", // Color for text separators.
 		// button/checkbox control
 		"button.background": "#568af2", // Button background color.
 		"button.foreground": "#f8f8f8", // Button foreground color.
-		"button.hoverBackground": "#5d84d1", // Button background color when hovering.
+		"button.hoverBackground": "#37589B", // Button background color when hovering.
 		"checkbox.background": "#3b3b3b", // Background color of checkbox widget.
 		"checkbox.foreground": "#f8f8f8", // Foreground color of checkbox widget.
 		"checkbox.border": "#3f3f3f", // Border color of checkbox widget.
@@ -251,11 +251,11 @@
 		"statusBar.background": "#202020", // Standard Status Bar background color.
 		"statusBar.foreground": "#f8f8f8", // Status Bar foreground color.
 		"statusBar.border": "#181818", // Status Bar border color separating the Status Bar and editor.
-		//"statusBar.debuggingBackground": , // Status Bar background color when a program is being debugged.
+		"statusBar.debuggingBackground": "#7c71c8", // Status Bar background color when a program is being debugged.
 		//"statusBar.debuggingForeground": , // Status Bar foreground color when a program is being debugged.
 		"statusBar.debuggingBorder": "#181818", // Status Bar border color separating the Status Bar and editor when a program is being debugged.
 		//"statusBar.noFolderForeground": , // Status Bar foreground color when no folder is opened.
-		//"statusBar.noFolderBackground": , // Status Bar background color when no folder is opened.
+		"statusBar.noFolderBackground":  "#568af2", // Status Bar background color when no folder is opened.
 		"statusBar.noFolderBorder": "#181818", // Status Bar border color separating the Status Bar and editor when no folder is opened.
 		//"statusBarItem.activeBackground": , // Status Bar item background color when clicking.
 		//"statusBarItem.hoverBackground": , // Status Bar item background color when hovering.

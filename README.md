@@ -4,7 +4,7 @@
 [![GitHub](https://flat.badgen.net/github/release/dionmunk/vscode-theme-monokai-faded/)](https://github.com/dionmunk/vscode-theme-monokai-faded/releases)
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs-short/dionmunk.theme-monokai-faded.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=dionmunk.theme-monokai-faded)
 
-Monokai Faded is a complete interface theme for Visual Studio Code based on the original Monokai theme.
+A faded Monokai theme for Visual Studio Code based on the original Monokai theme by [Wimer Hazenberg](https://monokai.nl/). This is a complete interface and syntax theme.
 
 ## Screenshot
 
@@ -12,4 +12,4 @@ Monokai Faded is a complete interface theme for Visual Studio Code based on the 
 
 ## License
 
-This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
