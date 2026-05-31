@@ -3,6 +3,11 @@
 All notable changes to the **Monokai Faded** theme are documented here.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.1.1] - 2026-05-31
+
+### Changed
+- Updated README badges (license, GitHub release, Marketplace installs).
+
 ## [1.1.0] - 2026-05-31
 
 A large refinement pass focused on a consistent, neutral UI with color
