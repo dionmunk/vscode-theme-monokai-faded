@@ -3,6 +3,20 @@
 All notable changes to the **Monokai Faded** theme are documented here.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.1.2] - 2026-06-01
+
+### Changed
+- **Links unified to cyan** — UI/text links (`textLink`, `editorLink`,
+  `notificationLink`) and Markdown link text now use the theme cyan `#74C5D9`
+  (previously blue `#6B8DC7` for UI links and yellow for Markdown links).
+- **Status bar items** — hover/active backgrounds now match the list/tree
+  translucent tints (`#F8F8F814` / `#F8F8F821`), and the remote indicator badge
+  is now cyan `#74C5D9` (was orange).
+- **Markdown lists** — list item text is now near-white `#f8f8f8` (was yellow),
+  and list markers (bullets/numbers) are now pink `#DF5077` (was green).
+- **Inline code in UI text** (`textPreformat.foreground`) now uses orange
+  `#ea9b40`, matching Markdown inline code.
+
 ## [1.1.1] - 2026-05-31
 
 ### Changed

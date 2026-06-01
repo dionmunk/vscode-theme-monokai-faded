@@ -45,8 +45,8 @@
 		"menu.selectionForeground": "#F8F8F8",
 		"menubar.selectionBackground": "#484848",
 		"menubar.selectionForeground": "#FFFFFF",
-		"statusBarItem.hoverBackground": "#FFFFFF1A",
-		"statusBarItem.activeBackground": "#FFFFFF2E",
+		"statusBarItem.hoverBackground": "#F8F8F814",
+		"statusBarItem.activeBackground": "#F8F8F821",
 		"statusBarItem.remoteForeground": "#181818",
 		"statusBarItem.prominentBackground": "#181818",
 		"statusBarItem.prominentForeground": "#F8F8F8",
@@ -93,7 +93,7 @@
 		"pickerGroup.foreground": "#727272",
 		"pickerGroup.border": "#484848",
 		"settings.focusedRowBackground": "#2828285A",
-		"statusBarItem.remoteBackground": "#EA9B40",
+		"statusBarItem.remoteBackground": "#74C5D9",
 		"tab.lastPinnedBorder": "#484848",
 		"debugToolBar.background": "#181818",
 		"ports.iconRunningProcessForeground": "#B5D93F",
@@ -112,9 +112,9 @@
 		"textBlockQuote.background": "#323232", // Background color for block quotes in text.
 		"textBlockQuote.border": "#484848", // Border color for block quotes in text.
 		"textCodeBlock.background": "#323232", // Background color for code blocks in text.
-		"textLink.activeForeground": "#6B8DC7", // Foreground color for links in text when clicked on and on mouse hover.
-		"textLink.foreground": "#6B8DC7", // Foreground color for links in text.
-		"textPreformat.foreground": "#9A9A9A", // Foreground color for preformatted text segments.
+		"textLink.activeForeground": "#74C5D9", // Foreground color for links in text when clicked on and on mouse hover.
+		"textLink.foreground": "#74C5D9", // Foreground color for links in text.
+		"textPreformat.foreground": "#ea9b40", // Foreground color for preformatted text segments.
 		"textSeparator.foreground": "#F8F8F8", // Color for text separators.
 		// button/checkbox control
 		"button.background": "#484848", // Button background color.
@@ -268,7 +268,7 @@
 		"editor.lineHighlightBackground": "#F8F8F814", // Background color for the highlight of line at the cursor position.
 		//"editor.lineHighlightBorder": , // Background color for the border around the line at the cursor position.
 		// link color
-		"editorLink.activeForeground": "#6B8DC7", // Color of active links.
+		"editorLink.activeForeground": "#74C5D9", // Color of active links.
 		// range highlight color
 		//"editor.rangeHighlightBackground": , // Background color of highlighted ranges, used by Quick Open, Symbol in File and Find features. The color must not be opaque so as not to hide underlying decorations.
 		//"editor.rangeHighlightBorder": , // Background color of the border around highlighted ranges.
@@ -376,7 +376,7 @@
 		"notifications.foreground": "#f8f8f8", // Notification foreground color.
 		"notifications.background": "#181818", // Notification background color.
 		"notifications.border": "#181818", // Notification border color separating from other notifications in the Notification Center.
-		"notificationLink.foreground": "#6B8DC7", // Notification links foreground color.
+		"notificationLink.foreground": "#74C5D9", // Notification links foreground color.
 		"notificationsErrorIcon.foreground": "#d13b2e", // The color used for the notification error icon.
 		"notificationsWarningIcon.foreground": "#ea9b40", // The color used for the notification warning icon.
 		"notificationsInfoIcon.foreground": "#74c5d9", // The color used for the notification info icon.
@@ -440,10 +440,10 @@
 		{"scope": "markup.bold", "settings": {"fontStyle": "bold"}},
 		{"scope": "markup.italic", "settings": {"fontStyle": "italic"}},
 		{"scope": "markup.strikethrough", "settings": {"fontStyle": "strikethrough"}},
-		{"scope": ["markup.underline.link.markdown", "markup.underline.link.image.markdown"], "settings": {"foreground": "#E0D77B", "fontStyle": "underline"}},
-		{"scope": ["string.other.link.title.markdown", "string.other.link.description.markdown"], "settings": {"foreground": "#E0D77B"}},
+		{"scope": ["markup.underline.link.markdown", "markup.underline.link.image.markdown"], "settings": {"foreground": "#74C5D9", "fontStyle": "underline"}},
+		{"scope": ["string.other.link.title.markdown", "string.other.link.description.markdown"], "settings": {"foreground": "#74C5D9"}},
 		{"scope": "markup.quote.markdown", "settings": {"foreground": "#666666", "fontStyle": "italic"}},
-		{"scope": ["punctuation.definition.list.begin.markdown", "markup.list.numbered.markdown", "markup.list.unnumbered.markdown"], "settings": {"foreground": "#B5D93F"}},
+		{"scope": ["punctuation.definition.list.begin.markdown"], "settings": {"foreground": "#DF5077"}},
 		{"scope": ["entity.name.namespace", "entity.name.scope-resolution"], "settings": {"foreground": "#B5D93F", "fontStyle": "underline"}},
 		{"scope": "punctuation.separator.namespace.ruby", "settings": {"foreground": "#B5D93F", "fontStyle": "italic underline"}},
 		{"scope": ["variable.legacy.builtin.python", "string meta.image.inline.markdown"], "settings": {"foreground": "#F8F8F8"}},
@@ -781,7 +781,7 @@
 			"name": "Markup Lists",
 			"scope": "markup.list",
 			"settings": {
-				"foreground": "#e0d77b"
+				"foreground": "#f8f8f8"
 			}
 		},
 		{
