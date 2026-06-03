@@ -1,2 +1,7 @@
 _source
 *.vsix
+
+# Local theme comparison artifacts (regenerated via scripts/gen_compare.py)
+palette-compare.html
+theme-compare-full.html
+__pycache__/
